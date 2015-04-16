@@ -77,6 +77,7 @@ div.contained-table {
   .top-news {
     order: 1;
     width: 50%;
+    font-size: 1.2em;
   }
   .scores {
     order: 2;
@@ -95,6 +96,10 @@ div.contained-table {
   }
   #container1 {
     margin-right: 6%;
+  }
+
+  h3.snippet__title {
+    font-size: 1.4em;
   }
 }
 
