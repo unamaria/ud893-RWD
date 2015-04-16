@@ -1,6 +1,8 @@
 .content {
   display: flex;
+  display: -webkit-flex; 
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
 
 .header__menu {
@@ -88,7 +90,9 @@ div.contained-table {
   }
   .recent-news ul {
     display: flex;
+    display: -webkit-flex; 
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
   }
   #container1, #container2 {
     display: inline-block;
